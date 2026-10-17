@@ -1001,7 +1001,7 @@ body { background: radial-gradient(ellipse at 50% 42%, #482048 0%, #24102f 48%, 
 .happy-woman-day strong { font-weight:700; background:linear-gradient(110deg,#fff5d5,#ffb6d9 48%,#fff1fa); color:transparent; background-clip:text; -webkit-background-clip:text; line-height:1.18; }
 .title-small { font: 500 clamp(12px,1.5vw,18px) system-ui,sans-serif; letter-spacing:.19em; text-transform:uppercase; color:#f8c6e0; }
 .title-sub { font: 400 clamp(13px,1.7vw,20px) system-ui,sans-serif; color:#ffe3f1; letter-spacing:.02em; }
-.flowers { filter: drop-shadow(0 0 24px #fa70af44); transform:scale(.82); margin-bottom:0; }
+.flowers { filter: drop-shadow(0 0 24px #fa70af44); transform:scale(1.1); margin-bottom:0; }
 .flower__leaf { box-shadow: inset 0 0 2vmin #ffffff99, 0 0 2.4vmin #ff7ac477; }
 .flower__leafs::after { opacity:.65; }
 .flower__light { box-shadow: 0 0 12px #ffdcaa; }
