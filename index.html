@@ -9,13 +9,16 @@
 </head>
     
 <body class="not-loaded">
-    <audio id="music" loop>
-    <source src="https://www.youtube.com/watch?v=cWP8bVqmRkE" type="audio/mpeg">
-</audio>
-
-<button onclick="document.getElementById('music').play()">
-    🎵 Bật nhạc
-</button>
+   <!-- Nhạc nền tự động phát -->
+<div style="position:absolute; width:0; height:0; overflow:hidden;">
+    <iframe
+        src="https://www.youtube.com/embed/cWP8bVqmRkE?autoplay=1&loop=1&playlist=cWP8bVqmRkE&controls=0"
+        width="1"
+        height="1"
+        allow="autoplay; encrypted-media"
+        title="Nhạc nền 20/10">
+    </iframe>
+</div>
     <div class="night"></div>
     <div class="happy-woman-day">𝓒𝓱𝓾́𝓬 𝓜𝓾̛̀𝓷𝓰 𝟮𝟬/𝟭𝟬 𝓒𝓪́𝓬 𝓑𝓪̣𝓷 𝓝𝓾̛̃ 𝓛𝓸̛́𝓹 𝟭𝟭𝗕𝟭</div>
     <div class="flowers">
