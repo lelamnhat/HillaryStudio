@@ -1041,7 +1041,7 @@ body { min-height:100svh; background:radial-gradient(ellipse at 50% 48%,#542044 
 .wish-card{position:relative;width:min(100%,480px);border:1px solid #ffd9ed85;border-radius:26px;padding:38px clamp(24px,5vw,44px);text-align:center;background:linear-gradient(150deg,#572746,#29142f);box-shadow:0 30px 90px #0009,0 0 70px #e76ea030;color:#fff2f8;font-family:Georgia,serif}
 .wish-icon{font-size:45px}.wish-eyebrow{font:600 11px system-ui,sans-serif;letter-spacing:.13em;color:#ffbedc;margin:15px 0}.wish-card h2{font-size:clamp(25px,5vw,34px);color:#ffe5ba;margin-bottom:16px}.wish-card p:not(.wish-eyebrow){font-size:17px;line-height:1.8}.wish-signature{display:block;margin-top:24px;color:#ffc5e0;font-style:italic}.close-wish{position:absolute;right:15px;top:10px;background:none;border:0;color:white;font-size:32px;cursor:pointer}
 @keyframes fade-in{from{opacity:0}to{opacity:1}}
-@media(max-width:600px){.flowers{transform:scale(.62);transform-origin:bottom center;margin-bottom:5vh}.bottom-actions{bottom:14px}.happy-woman-day{top:5vh}}
+@media(max-width:600px){.flowers{transform:scale(1.2);transform-origin:bottom center;margin-bottom:5vh}.bottom-actions{bottom:14px}.happy-woman-day{top:5vh}}
 .hint{
   font-size:11px
   bottom:1px
